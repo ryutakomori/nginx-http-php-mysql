@@ -1,6 +1,6 @@
-## EST docker Basic
+## nginx http php mysql
 
-This is sample for EST contents.
+This is sample for contents.
 
 * PHP:   php:7.2.2-fpm-alpine3.6
 * Nginx: nginx:1.13.9-alpine
@@ -11,9 +11,9 @@ This is sample for EST contents.
 ```
 mkdir ~/est && cd ~/est
 
-git clone git@github.com:TRBRS/est-docker-basic.git
+git clone git@github.com:ryutakomori/nginx-http-php-mysql
 
-cd est-docker-basic
+cd nginx-http-php-mysql
 
 docker-compose up -d
 ```
